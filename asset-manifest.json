@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/comment_threading/static/css/main.bcd63eb1.css",
+    "main.js": "/comment_threading/static/js/main.f4c79252.js",
+    "index.html": "/comment_threading/index.html",
+    "main.bcd63eb1.css.map": "/comment_threading/static/css/main.bcd63eb1.css.map",
+    "main.f4c79252.js.map": "/comment_threading/static/js/main.f4c79252.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd63eb1.css",
+    "static/js/main.f4c79252.js"
+  ]
+}
