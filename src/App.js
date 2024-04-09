@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Comments from "./comments/Comments";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello people</h1>
+      <Comments
+        commentsUrl="http://localhost:3000/comments"
+        currentUserId="1"
+      />
     </div>
   );
 }
